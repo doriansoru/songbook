@@ -1,0 +1,12 @@
+\documentclass[a4paper]{book}
+			\usepackage{pdfpages}
+			\usepackage[utf8]{inputenc}
+			\usepackage[T1]{fontenc}
+			\usepackage[hidelinks]{hyperref}
+			\pagestyle{empty}
+			\renewcommand{\contentsname}{Indice}
+			\pdfminorversion=7
+			\begin{document}
+				\includepdf[pages=-]{\detokenize{scores/cover.pdf}}
+				\tableofcontents
+\end{document}

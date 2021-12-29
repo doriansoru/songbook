@@ -49,7 +49,7 @@ class Songbook:
 			\\usepackage[T1]{fontenc}
 			\\usepackage[hidelinks]{hyperref}
 			\\pagestyle{empty}
-			\\renewcommand{\contentsname}{Indice}
+			\\renewcommand{\contentsname}{""" + _("Indice") + """}
 			\\pdfminorversion=7
 			\\begin{document}
 				\\includepdf[pages=-]{\detokenize{""" + self._cover_filename + """}}

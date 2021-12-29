@@ -30,4 +30,4 @@ if compile == "" or  compile == "y":
 		os.system("pdflatex MesseBreve")
 
 ```
-- Open your final file, in this case `MesseBreve.pdf`
+- Open your final file, in this case [MesseBreve.pdf](https://github.com/doriansoru/songbook/raw/main/example/MesseBreve.pdf)

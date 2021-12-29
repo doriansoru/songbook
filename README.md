@@ -1,5 +1,5 @@
 # songbook
-A python class to create a book with songs scores by merging multiple pdf in one pdf through a LaTex file.
+A python class to create a book with songs scores by merging multiple pdf in one pdf through a LaTex file
 
 # Requirements
 
